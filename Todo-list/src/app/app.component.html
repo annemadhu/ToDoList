@@ -1,0 +1,11 @@
+<div class="contianer"> 
+    <div class="row">
+        <div class="col-12">
+            <app-task-list [tasks]="tasks"></app-task-list>
+            <br><br>
+            <app-task-add (addTaskEventEmitter)="addTaskEventEmitter($event)"></app-task-add>
+        </div>
+       
+    </div>
+</div>
+
